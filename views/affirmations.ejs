@@ -2,18 +2,26 @@
 <!doctype html>
 <html>
 <head>
-    <title>Evolve App</title>
+    <title>Grow App</title>
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="font-awesome.min.css">
 </head>
 <body>
-<div class="container">
 
+  <section class="navi">
+    <nav>
+            <a href="/profile" class="btn btn-default btn-sm">Profile</a>
+      <a href="/logout" class="btn btn-default btn-sm">Logout</a>
+    </nav>
+  </section>
+
+<div class="container">
+<h1>Affirmations</h1>
     <div class="page-header text-center">
-        <h1><span class="fa fa-user"></span> My Affirmations</h1>
-        <a href="/profile" class="btn btn-default btn-sm">Profile</a>
+        <!-- <h1><span class="fa fa-user"></span> My Affirmations</h1> -->
+        <!-- <a href="/profile" class="btn btn-default btn-sm">Profile</a> -->
     </div>
 
     <div class="row">
@@ -25,7 +33,7 @@
                   <form action="/messages" method="POST">
                     <label for="email">Enter Name or Email</label>
                     <input class="emailShow" type="text" value="<%= user.local.email %>" placeholder="Name" name="name">
-                  
+
                     <label class="message" for="message">Add your message</label>
                     <input class="msgs" type="text" placeholder="Enter message here" name="msg">
                     <button class="add" type="submit">Add Affirmation</button>
@@ -34,7 +42,7 @@
         </div>
         <div class="col-sm-6" id="second">
           <h3>Messages</h3>
-          
+
           <ul class="messages">
             <% for(var i=0; i<messages.length; i++) {%>
               <li class="message">
