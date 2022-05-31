@@ -1,3 +1,3 @@
 # Grow
-### Mood Tracker
+### Mindfullness Tracker
 
