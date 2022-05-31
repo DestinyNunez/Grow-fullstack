@@ -2,7 +2,7 @@ body{
   /* padding-top:80px; */
   word-wrap:break-word;
   height: 1000px;
-
+  background-color: lightgray;
 }
 
 h3{
@@ -49,7 +49,7 @@ form{
 .well{
   height: 500px;
   width: 100%;
-  background: lightblue;
+  background: gray;
 }
 
 input{
@@ -87,16 +87,16 @@ li {
   height: 200px;
   /* border: 2px solid #c6cebf; */
   border-radius: 5%;
-  
+
   color: black;
   font-size: 1rem;
-  
+
   padding: 10%;
 
   overflow: hidden;
 
   margin: 2%;
-  
+
 }
 
 ul.messages{
