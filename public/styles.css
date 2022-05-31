@@ -1,105 +1,98 @@
-body{
+body {
   /* padding-top:80px; */
-  word-wrap:break-word;
+  word-wrap: break-word;
   height: 1000px;
   background-color: lightgray;
 }
 
-h3{
+h3 {
   font-size: 1.2rem;
 }
 
-img{
+img {
   height: 200px;
 }
 
 /* profile page CSS */
-.emailShow{
+.emailShow {
   width: 75%;
   margin-bottom: 15px;
 }
-.msgs{
+
+.msgs {
   height: 60px;
   width: 75%;
   display: block;
 }
 
-#profile_pic{
+#profile_pic {
   background: white;
 }
 
-.headingThree{
+.headingThree {
   margin-top: 0;
   margin-bottom: 10px;
   font-size: 1.8rem;
 }
 
-form{
+form {
   margin-top: 20px;
 }
 
-.labelEmail{
+.labelEmail {
   display: block;
 }
 
-.add{
+.add {
   margin-top: 10px;
 }
 
-.well{
+.well {
   height: 500px;
   width: 100%;
   background: gray;
 }
 
-input{
+input {
   border: 1px lightcyan solid;
-  box-shadow: 2px 2px 2px 2px ;
+  box-shadow: 2px 2px 2px 2px;
 }
 
-.col-sm-8{
-  display:none;
+.col-sm-8 {
+  display: none;
 }
 
-p{
+p {
   margin-top: 25px;
 }
 
-.item{
+.item {
   padding-top: 20px;
 }
 
-.btn-default{
+.btn-default {
   margin-top: 20px;
-
 }
 
-.message{
+.message {
   font-size: 2rem;
   list-style: none;
-  list-style: outside, none;
 }
 
 li {
-  background-image: url("https://cdn.pixabay.com/photo/2013/07/12/14/11/note-147951__340.png");
+  color: lightgray;
+  font-size: 10px;
+  background: blue;
   background-size: cover;
   background-position: center center;
   height: 200px;
-  /* border: 2px solid #c6cebf; */
   border-radius: 5%;
-
-  color: black;
-  font-size: 1rem;
-
   padding: 10%;
-
   overflow: hidden;
-
   margin: 2%;
-
 }
 
-ul.messages{
+ul.messages {
   display: grid;
   grid-template-columns: repeat(2, 80%);
   width: 75%;
